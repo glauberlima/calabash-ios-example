@@ -531,6 +531,8 @@
 				GCC_PREFIX_HEADER = "LPSimpleExample/LPSimpleExample-Prefix.pch";
 				INFOPLIST_FILE = "LPSimpleExample/LPSimpleExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				"LINK_WITH_STANDARD_LIBRARIES[arch=*]" = YES;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = sh.calaba.LPSimpleExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -636,6 +638,7 @@
 				F5CF883D1BD8FC880062882A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
